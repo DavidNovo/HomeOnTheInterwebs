@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://portfolio.novogrodsky.net/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
@@ -21,3 +21,8 @@ theme = "hugo-theme-console"
   name = "photos/"
   url = "photos/"
 
+[deployment]
+
+  [[deployment.targets]]
+  name = "prod"
+  URL = "s3://portfolio.novogrodsky.net?region=us-east-2"
