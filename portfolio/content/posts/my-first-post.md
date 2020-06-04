@@ -5,6 +5,7 @@ draft: false
 ---
 From Naivety to The New Century
 
+
 This has been a long time comming.  Novogrodsky.net started last century as a wiki based site using PHP; the framework was called PHPWiki.  I wonder if it is still around?
 
 
