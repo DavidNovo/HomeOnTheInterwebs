@@ -22,7 +22,6 @@ theme = "hugo-theme-console"
   url = "photos/"
 
 [deployment]
-
   [[deployment.targets]]
   name = "prod"
   URL = "s3://portfolio.novogrodsky.net?region=us-east-2"
