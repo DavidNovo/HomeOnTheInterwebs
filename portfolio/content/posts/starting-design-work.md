@@ -1,7 +1,7 @@
 ---
 title: "Starting Design Work"
 date: 2020-06-14T19:26:03-05:00
-draft: true
+draft: false
 ---
 My first 100 Day Challenge
 
@@ -16,6 +16,8 @@ I have decided to design a page each day for 100 days. I will be learning a lot 
 
 
 The challenge will be to follow the rules above without adding stuff to the mix.
+
+This was inspired by [CSS Zen Garden](http://www.csszengarden.com/).
 
 
 
