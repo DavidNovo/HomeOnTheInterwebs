@@ -21,6 +21,10 @@ theme = "hugo-theme-console"
   name = "photos/"
   url = "photos/"
 
+  [[params.navlinks]]
+  name = "DesignChallenge/"
+  url = "design-challenge/"
+
 [deployment]
   [[deployment.targets]]
   name = "prod"
