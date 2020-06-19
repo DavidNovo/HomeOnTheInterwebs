@@ -6,7 +6,7 @@ layout: static/css/SteeleNovo.css
 ---
 # Summary (h1 header) {#summary class="summary"}
 
-This is my third experiment with CSS and design. 
+This is my third experiment with CSS and design. Up and Down.  Breaking the vertical and the horizontal.
 
 *** 
 
