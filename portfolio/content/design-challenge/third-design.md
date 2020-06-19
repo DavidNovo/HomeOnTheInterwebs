@@ -1,7 +1,7 @@
 ---
 title: "Third Design"
 date: 2020-06-19T12:09:42-05:00
-draft: true
+draft: false
 layout: static/css/SteeleNovo.css
 ---
 # Summary (h1 header) {#summary class="summary"}
