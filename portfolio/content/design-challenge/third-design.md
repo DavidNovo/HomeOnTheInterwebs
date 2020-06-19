@@ -1,10 +1,12 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
-layout: 
+title: "Third Design"
+date: 2020-06-19T12:09:42-05:00
+draft: false
+layout: static/css/SteeleNovo.css
 ---
 # Summary (h1 header) {#summary class="summary"}
+
+This is my third experiment with CSS and design. Up and Down.  Breaking the vertical and the horizontal.
 
 *** 
 
