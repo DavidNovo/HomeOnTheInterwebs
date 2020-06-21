@@ -1,7 +1,7 @@
 ---
 title: "Fourth Design"
 date: 2020-06-20T20:03:09-05:00
-draft: true
+draft: false
 layout: static/css/kitschRetro.css
 ---
 # Summary (h1 header) {#summary class="summary"}
