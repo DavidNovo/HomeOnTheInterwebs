@@ -1,0 +1,35 @@
+
+/* This is a CSS for the fifth design. */
+/* I am breaking the vertical and horizontal by tilting 
+the headers and the paragraphs */
+
+/* basic elements */
+
+body {
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	margin: 0;
+	padding: 0;
+	transform: rotate(20deg);
+}
+
+p {
+	margin-top: 0;
+	margin-left: 10%;
+	align-content: center;
+	border: 1px solid;
+	width: 50%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	transform: rotate(20deg);
+}
+
+a:hover,
+a:focus,
+a:active {
+	text-decoration: underline;
+	color: red;
+}
