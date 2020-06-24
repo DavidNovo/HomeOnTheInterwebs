@@ -1,0 +1,28 @@
+/* styling the element I want to animate with the
+animation sub-properties. */
+
+/* animation-name defined the name of the animation */
+
+p {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* @keyframes at-rule defines the appearance, or what changes, of the element with the animation
+sub-property.  */
+/* the steps are defined as percentage done, `from` alias for 0% or start
+and `to` alias for 100% or done */
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
