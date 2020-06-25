@@ -1,0 +1,41 @@
+/* an at-rule instructs how CSS to behave. 
+@font-face — Describes the aspect of an external font to be downloaded.
+*/
+
+@font-face {
+    /* this is the name for my font family */
+    font-family: 'DOS';
+    src: url("../fonts/Px437_Kaypro2K.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-kerning: none;
+    font-synthesis: none;
+    font-variant-ligatures: none;
+    font-variant-numeric: tabular-nums;
+  }
+
+  @font-face {
+    /* this is the name for my font family */
+    font-family: 'Retro';
+    src: url("../fonts/RetromarkScript-UNICODE-Dafont.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-kerning: none;
+    font-synthesis: none;
+    font-variant-ligatures: none;
+    font-variant-numeric: tabular-nums;
+  }
+  body {
+    margin: 10%;
+    font-family: DOS, Monaco, Menlo, monospace;
+    font-weight: 400;
+    line-height: normal;
+    color: green;
+    text-align: left;
+    background-color: black;
+    font-kerning: none;
+    /* this option emphasizes geometric precision over speed. */
+    text-rendering: geometricPrecision;
+  }
+
+  
