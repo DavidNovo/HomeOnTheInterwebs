@@ -1,0 +1,36 @@
+
+  /* First use of variables */
+  :root {
+    --display-h1-decoration: yes;
+    --display-h2-decoration: yes;
+  }
+  
+/* this adds the content after the close of an H1 box. */
+/* because this is relative, stays in the normal flow of the document,
+This decoration is relative to the H1 header */
+  h1::after {
+    content: "***";
+    position: relative;
+    bottom: 5px;
+    left: 0;
+    display: var(--display-h1-decoration);
+  }
+
+/* this adds the content after the close of an H2 box.
+because this is absolute, it does not stay in the normal flow of the document,
+this is placed relative to the containg block of the H2 element.
+The containing block is formed by the edge of the padding box of the nearest 
+ancestor element that has a position value other than static.  
+In this case it is the body element */
+  h2::after {
+    content: "=============================";
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    display: var(--display-h2-decoration);
+  }
+
+  /* Selects the first letter of a <p> */
+p::first-letter {
+    font-size: 130%;
+  }
