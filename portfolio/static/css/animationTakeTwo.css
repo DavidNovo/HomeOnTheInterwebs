@@ -1,0 +1,46 @@
+/* styling the element I want to animate with the
+animation sub-properties. */
+
+/* animation-name defined the name of the animation */
+a:hover {
+    animation-duration: 3s;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+}
+
+.summary,
+.title {
+    animation-duration: 5s;
+    animation-name: in-and-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* @keyframes at-rule defines the appearance, or what changes, of the element with the animation
+sub-property.  */
+/* the steps are defined as percentage done, `from` alias for 0% or start
+and `to` alias for 100% or done */
+
+@keyframes pulse {
+    0% {
+        color: green;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    100% {
+        color: yellow;
+    }
+}
+
+@keyframes in-and-out {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
