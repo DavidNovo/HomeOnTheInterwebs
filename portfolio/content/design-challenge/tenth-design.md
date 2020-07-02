@@ -1,7 +1,7 @@
 ---
 title: "Tenth Design"
 date: 2020-07-02T15:10:16-05:00
-draft: true
+draft: false
 layout: static/css/animationTakeTwo.css
 ---
 # Summary (h1 header) {#summary class="summary"}
