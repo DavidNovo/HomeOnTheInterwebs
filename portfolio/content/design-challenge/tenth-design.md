@@ -6,7 +6,7 @@ layout: static/css/animationTakeTwo.css
 ---
 # Summary (h1 header) {#summary class="summary"}
 
-This design will use some more animation and CSS selectors.  Some things can move on their own, but can some things disappear?  Or shift?  
+This design will use some more animation and CSS selectors.  Some things can move on their own, but can some things disappear?  Or shift?  For a test, hover over a link and see what happens.
 *** 
 
 # O penates includit sunt Graias contemptus rigidoque (h1 header) {#header-id-h1 class="title"}
