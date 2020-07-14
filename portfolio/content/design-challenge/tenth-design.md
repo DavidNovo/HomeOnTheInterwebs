@@ -7,14 +7,14 @@ layout: static/css/animationTakeTwo.css
 # Summary (h1 header) {#summary class="summary"}
 
 This design will use some more animation and CSS selectors.  Some things can move on their own, but can some things disappear?  Or shift?  For a test, hover over a link and see what happens.
-*** 
+***
 
 # O penates includit sunt Graias contemptus rigidoque (h1 header) {#header-id-h1 class="title"}
 
 Tasks
 
 - [x] Bacon ipsum dolor amet shank
-- [ ] Pig prosciutto 
+- [ ] Pig prosciutto
 - [ ] Flank ground round
   
 First Term
@@ -23,7 +23,6 @@ First Term
 Second Term
 : This is one definition of the second term.
 : Tollite at plenas locumque.
-
 
 Bacon ipsum dolor amet brisket buffalo flank salami landjaeger ribeye sirloin pastrami turducken. Biltong swine meatloaf prosciutto. Sirloin ground round tongue, bresaola short loin cow leberkas. Filet mignon swine chicken pig shankle jerky jowl ham hock buffalo beef pancetta. Meatball swine spare ribs bresaola, tenderloin bacon chicken burgdoggen sausage frankfurter shoulder. Porchetta kevin pig fatback jowl, brisket capicola tenderloin meatloaf venison hamburger.
 

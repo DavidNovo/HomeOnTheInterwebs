@@ -5,18 +5,19 @@ draft: false
 layout: static/css/animationTakeThree.css
 ---
 # Summary (h1 header) {#summary class="summary"}
+
 More shifting and more things appear and reappear.  Also first time using a transition-timing-function nfor the animation.  This way, the animation looks like it is fading in slowly, speeding up then toward the end, slowing down. This, in essence, establishes an acceleration curve so that the speed of the transition varies over its duration.
 
 This might be more useful for a one time animation on an entrance page.
 
-*** 
+***
 
 # O penates includit sunt Graias contemptus rigidoque (h1 header) {#header-id-h1 class="title"}
 
 Tasks
 
 - [x] Bacon ipsum dolor amet shank
-- [ ] Pig prosciutto 
+- [ ] Pig prosciutto
 - [ ] Flank ground round
   
 First Term
@@ -25,7 +26,6 @@ First Term
 Second Term
 : This is one definition of the second term.
 : Tollite at plenas locumque.
-
 
 Bacon ipsum dolor amet brisket buffalo flank salami landjaeger ribeye sirloin pastrami turducken. Biltong swine meatloaf prosciutto. Sirloin ground round tongue, bresaola short loin cow leberkas. Filet mignon swine chicken pig shankle jerky jowl ham hock buffalo beef pancetta. Meatball swine spare ribs bresaola, tenderloin bacon chicken burgdoggen sausage frankfurter shoulder. Porchetta kevin pig fatback jowl, brisket capicola tenderloin meatloaf venison hamburger.
 
