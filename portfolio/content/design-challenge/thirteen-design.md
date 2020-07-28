@@ -1,23 +1,24 @@
 ---
-title: "Eighth Design"
-date: 2020-06-27T20:55:30-05:00
+title: "Thirteen Design"
+date: 2020-07-26T00:10:59-05:00
 draft: false
-layout: static/css/pseudoElements.css
+layout: static/css/designThirteen.css
 ---
-<div>
 # Summary (h1 header) {#summary class="summary"}
-</div>
 
-First experiment with pseudo-elements in CSS.
+Making a grid using CSS.
 
-*** 
+This is my first CSS grid.  I divided the block with class 'container' into three columns.  I did not define the number of rows.  I also did not declare which block element goes in which column.  This made a design where each block-level element is put into its own column. Headers, paragraphs, Undordered Lists, Definitions Terms are block-level elements.  The columns are populated from left to right and top down.  Every fourth block-level element starts a new row.
+
+Interesting effect. I wonder if I can use random number generators to place block-level units randomly on the viewport.
+***
 
 # O penates includit sunt Graias contemptus rigidoque (h1 header) {#header-id-h1 class="title"}
 
 Tasks
 
 - [x] Bacon ipsum dolor amet shank
-- [ ] Pig prosciutto 
+- [ ] Pig prosciutto
 - [ ] Flank ground round
   
 First Term
@@ -26,7 +27,6 @@ First Term
 Second Term
 : This is one definition of the second term.
 : Tollite at plenas locumque.
-
 
 Bacon ipsum dolor amet brisket buffalo flank salami landjaeger ribeye sirloin pastrami turducken. Biltong swine meatloaf prosciutto. Sirloin ground round tongue, bresaola short loin cow leberkas. Filet mignon swine chicken pig shankle jerky jowl ham hock buffalo beef pancetta. Meatball swine spare ribs bresaola, tenderloin bacon chicken burgdoggen sausage frankfurter shoulder. Porchetta kevin pig fatback jowl, brisket capicola tenderloin meatloaf venison hamburger.
 
