@@ -7,7 +7,7 @@ layout: static/css/sixteen.css
 # Summary (h1 header) {#summary class="summary onetwo"}
 
 {{% div class="two" %}}
-Ok, here is another design building on CSS Grid.  The major headers, h1-h1, are spreading across two columns of the grid. The other headers are in the second column of the grid. 
+Ok, here is another design building on CSS Grid.  The major headers, h1-h2, are spreading across two columns of the grid. The other headers are in the second column of the grid. 
 
 I could have done the same thing in the CSS document, like this:
 {{< highlight css>}}
