@@ -1,0 +1,63 @@
+  @font-face {
+    /* this is the name for my font family */
+    font-family: 'Retro';
+    src: url("../fonts/RetromarkScript-UNICODE-Dafont.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-kerning: none;
+    font-synthesis: none;
+    font-variant-ligatures: none;
+    font-variant-numeric: tabular-nums;
+  }
+
+  body {
+    margin: 10rem;
+    font-family: Retro, monospace;
+    font-weight: 400;
+    line-height: normal;
+    color: green;
+    text-align: left;
+    background-color: black;
+    font-kerning: none;
+    /* this option emphasizes geometric precision over speed. */
+    text-rendering: geometricPrecision;
+  }
+
+  /* Selects the first letter of a <p> or a h2 header. */
+  p::first-letter {
+    font-size: 2em;
+  }
+
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    writing-mode: horizontal-tb;
+  }
+
+  /* making my first CSS Grid.  The container class is used
+to contain the main content of the page. */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5em;
+  }
+
+  /* These classes will tell where a block element should go. */
+  .one {
+    grid-column: 1;
+  }
+
+  .two {
+    grid-column: 2;
+  }
+  .onetwo {
+    grid-column: 1 / 3;
+  }
+
+  .three {
+    grid-column: 3;
+
+  }
