@@ -8,6 +8,10 @@ theme = "hugo-theme-console"
   # Cutting off the page title to two chars for mobile (console-demo -> co)
   titleCutting = true
   twitter = "testing"
+
+  # Making sure my shortcodes can emmit html to the generated page.
+  [markup.goldmark.renderer]
+  unsafe= true
   
   [[params.navlinks]]
   name = "about/"
