@@ -1,7 +1,7 @@
 ---
 title: "Design Challenge_018"
 date: 2020-08-01T20:15:55-05:00
-draft: true
+draft: false
 layout: static/css/design-018.css
 ---
 ## Summary (h2 header) {#summary class="summary one"}
