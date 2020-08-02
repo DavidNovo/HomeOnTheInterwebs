@@ -1,0 +1,64 @@
+  @font-face {
+    /* this is the name for my font family */
+    font-family: 'Retro';
+    src: url("../fonts/RetromarkScript-UNICODE-Dafont.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-kerning: none;
+    font-synthesis: none;
+    font-variant-ligatures: none;
+    font-variant-numeric: tabular-nums;
+  }
+
+  body {
+    margin: 10rem;
+    font-family: Retro, monospace;
+    font-weight: 400;
+    line-height: normal;
+    color: green;
+    text-align: left;
+    background-color: black;
+    font-kerning: none;
+    /* this option emphasizes geometric precision over speed. */
+    text-rendering: geometricPrecision;
+  }
+
+  /* Selects the first letter of a <p> or a h2 header. */
+  p::first-letter {
+    font-size: 3em;
+  }
+
+
+  h1,
+  h2 {
+    writing-mode: vertical-lr;
+  }
+
+  /* making my first CSS Grid.  The container class is used
+to contain the main content of the page. */
+  /* In this case, the height of the row is the min needed to contain the content of the columns.  Word wrapping
+is working. Note the grid gap. it is measured in em, this iis a unit of measure derived from the font size. */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: min-content;
+    grid-gap: 5em;
+  }
+
+  /* These classes will tell where a block element should go. */
+  .one {
+    grid-column: 1;
+  }
+
+  .two {
+    grid-column: 2;
+  }
+
+  .onetwo {
+    grid-column: 1 / 3;
+  }
+
+  .three {
+    grid-column: 3;
+
+  }
