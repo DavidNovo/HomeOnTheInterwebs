@@ -1,7 +1,7 @@
 ---
 title: "Design Challenge_019"
 date: 2020-08-02T00:08:50-05:00
-draft: true
+draft: false
 layout: static/css/design-019.css
 ---
 ## Summary (h2 header) {#summary class="pattern-triangles"}
