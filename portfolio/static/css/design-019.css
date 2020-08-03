@@ -1,0 +1,66 @@
+  @font-face {
+    /* this is the name for my font family */
+    font-family: 'Retro';
+    src: url("../fonts/RetromarkScript-UNICODE-Dafont.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-kerning: none;
+    font-synthesis: none;
+    font-variant-ligatures: none;
+    font-variant-numeric: tabular-nums;
+  }
+
+  body {
+    margin: 10rem;
+    font-family: Retro, monospace;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    font-kerning: none;
+    /* this option emphasizes geometric precision over speed. */
+    text-rendering: geometricPrecision;
+  }
+
+  /* Selects the first letter of a <p> or a h2 header. */
+  p::first-letter {
+    font-size: 2em;
+  }
+
+
+
+  /* Making patterns using CSS gradients */
+  /* I want to make these patterns: triangles, stripes, dots, and a grid. */
+
+  /* Using angles, 0deg creates vertical gradient running from bottom to top, 90deg is horizontal 
+  gradient running from left to right.  This gradient used a hard stop for the colors, 50% through the gradient.
+  These gradients are not repeating.
+  */
+  .pattern-triangles {
+    background-image: linear-gradient(45deg, currentColor 50%, transparent 50%);
+    background-size: 25px 25px;
+  }
+
+  /* This pattern is using the em for size, not px. */
+  .pattern-stripes-horizontal {
+    background-image: linear-gradient(0deg, transparent 50%, currentColor 50%);
+    background-size: 0.1em 0.1em;
+  }
+
+  /* As with linear gradients, all you need to create a radial gradient are two colors. 
+  By default, the center of the gradient is at the 50% 50% mark, and the gradient is 
+  elliptical matching the aspect ratio of it's box.  In this case the box is square, so the aspect
+  ratio of the box is 1:1 */
+  .pattern-dots {
+    background-image: radial-gradient(currentColor 1px, transparent 1px);
+    background-size: calc(10 * 1px) calc(10 * 1px);
+  }
+
+  /* Gradients can be overlayed.  The first gradent defined is the one applied on top.
+  By default, gradients run from top to bottom (I am not using angles for this gradient).
+  The direction of the gradient can be changed using clauses like 'to right'*/
+  p,
+  .pattern-grid {
+    background-image: linear-gradient(currentColor 1px, transparent 1px),
+      linear-gradient(to right, currentColor 1px, transparent 1px);
+    background-size: 1em 1em;
+  }
