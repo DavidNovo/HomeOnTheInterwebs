@@ -18,9 +18,9 @@ Patterns I am making:
 Here is the bit of CSS that I used:
 {{< highlight css>}}
  /* Making patterns using CSS gradients */
-  /* I want to make these patterns: triangles, stripes, dots, and a grid. */
+ /* I want to make these patterns: triangles, stripes, dots, and a grid. */
 
-  /* Using angles, 0deg creates vertical gradient running from bottom to top, 90deg is horizontal 
+ /* Using angles, 0deg creates vertical gradient running from bottom to top, 90deg is horizontal 
   gradient running from left to right.  This gradient used a hard stop for the colors, 50% through the gradient.
   These gradients are not repeating.
   */
