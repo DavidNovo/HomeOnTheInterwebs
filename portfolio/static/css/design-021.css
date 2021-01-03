@@ -1,0 +1,89 @@
+@font-face {
+    /* this is the name for my font family */
+    font-family: 'Retro';
+    src: url("../fonts/RetromarkScript-UNICODE-Dafont.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-kerning: none;
+    font-synthesis: none;
+    font-variant-ligatures: none;
+    font-variant-numeric: tabular-nums;
+  }
+
+  body {
+    margin: 10rem;
+    font-family: Retro, monospace;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    font-kerning: none;
+    /* this option emphasizes geometric precision over speed. */
+    text-rendering: geometricPrecision;
+  }
+
+    /* As with linear gradients, all you need to create a radial gradient are two colors. 
+  By default, the center of the gradient is at the 50% 50% mark, and the gradient is 
+  elliptical matching the aspect ratio of it's box.  In this case the box is square, so the aspect
+  ratio of the box is 1:1 */
+  .pattern-dots {
+    background-image: radial-gradient(currentColor 1px, transparent 1px);
+    background-size: calc(10 * 1px) calc(10 * 1px);
+  }
+
+/*  I need a logo.  So I...*/
+#logo {
+    font-family: futura;
+    font-size: 60px;
+    color: #fff;
+    background: #F20000;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 30px #000;
+  }
+
+  #logogreen {
+    font-family: futura;
+    font-size: 60px;
+    color: green;
+    background: #F20000;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 30px #000;
+  }
+
+  .summary-grid {
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: auto 1fr 1fr auto auto;
+    grid-gap: 1rem;
+    width: 100;
+    /* transform: rotate(-45deg); */
+  }
+
+  /* These classes will tell where a block element should go in the summary grid */
+  .twocolumnsfirstrow {
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+
+  .firstcolumnallrows {
+    grid-column: 1;
+    grid-row: 1/5;
+    writing-mode: vertical-rl;
+    font-style: oblique;
+    font-size: 5rem;
+  }
+
+  .fifthcolumnallrows {
+    grid-column: 5;
+    grid-row: 1/5;
+    font-size: 5rem;
+  }
+  .secondfifthcolumnsthirdrow {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row: 3;
+  }
