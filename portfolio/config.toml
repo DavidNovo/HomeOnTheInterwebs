@@ -29,6 +29,8 @@ theme = "hugo-theme-console"
   name = "DesignChallenge/"
   url = "design-challenge/"
 
+[permalinks]
+  posts = "posts/:year/:month/:slug"
 [deployment]
   [[deployment.targets]]
   name = "prod"

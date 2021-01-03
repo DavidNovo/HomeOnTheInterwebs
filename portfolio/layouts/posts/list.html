@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h2>{{ .Title }}</h2>
+<div class="posts-list">
+    {{ range (.Paginator 3).Pages }}
+    <div class="post">
+        {{ partial "post_summary.html" . }}
+        <p></p>
+        <p></p>
+    </div>
+
+    {{ end }}
+</div>
+
+{{ template "_internal/pagination.html" . }}
+
+{{ end }}

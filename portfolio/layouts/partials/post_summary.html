@@ -1,0 +1,11 @@
+<article>
+    <header>
+        <div class="date">
+            {{ .PublishDate.Format "Jan. 2, 2006" }}
+        </div>
+      <h1>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h1>
+    </header>
+    {{ .Summary }}
+  </article>
