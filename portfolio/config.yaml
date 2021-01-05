@@ -1,0 +1,29 @@
+baseURL: 'https://portfolio.novogrodsky.net/'
+languageCode: en-us
+title: My New Hugo Site
+theme: hugo-theme-console
+paginate: 3
+params:
+  titleCutting: true
+  twitter: testing
+  navlinks:
+    - name: about/
+      url: about/
+    - name: posts/
+      url: posts/
+    - name: photos/
+      url: photos/
+    - name: DesignChallenge/
+      url: design-challenge/
+    - name: Projects/
+      url: projects/
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+permalinks:
+  posts: 'posts/:year/:month/:slug'
+deployment:
+  targets:
+    - name: prod
+      URL: 's3://portfolio.novogrodsky.net?region=us-east-2'
